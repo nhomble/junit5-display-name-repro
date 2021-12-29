@@ -2,7 +2,7 @@
 
 Fixed after reading `MessageFormat` docs.
 
-~~When I use an apostrophe in the `name` parameter of the `@ParameterizedTest` annotation, following arguments are not
+~~When I use an apostrophe in the `name` parameter of the `@ParameterizedTest` annotation, the following arguments are not
 templated into the output.~~
 
 [The test](src/test/java/SampleTest.java)
