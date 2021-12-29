@@ -10,7 +10,16 @@ public class SampleTest {
             "1,1",
             "1,2"
     })
-    void test(int x, int y){
+    void withApostrophe(int x, int y){
+        assertEquals(y, x);
+    }
+
+    @ParameterizedTest(name = "{0} {1}")
+    @CsvSource(value = {
+            "1,1",
+            "1,2"
+    })
+    void plainAndSimple(int x, int y){
         assertEquals(y, x);
     }
 }
