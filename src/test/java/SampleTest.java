@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SampleTest {
 
-    @ParameterizedTest(name = "{0} ' {1}")
+    @ParameterizedTest(name = "{0} '' {1}")
     @CsvSource(value = {
             "1,1",
             "1,2"
